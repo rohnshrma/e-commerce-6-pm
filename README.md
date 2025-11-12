@@ -1,13 +1,13 @@
 # E-Commerce Backend - MERN Stack
 
-A student-friendly Node.js/Express/MongoDB backend for an e-commerce platform with JWT authentication, role-based access control, and payment integration.
+A Node.js/Express/MongoDB backend for an e-commerce platform with JWT authentication, role-based access control, and payment integration.
 
 ## 📖 Documentation Index
 
-- **[README.md](./README.md)** - You are here! Setup guide and project overview
+- **[README.md](./README.md)** - Setup guide and project overview
 - **[plan.md](./plan.md)** - Complete API documentation with all routes and endpoints
 - **[POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md)** - Step-by-step guide for testing with Postman
-- **[DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md)** - File creation order guide for learning the architecture
+- **[DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md)** - File creation order guide
 
 ## Features
 
@@ -264,9 +264,9 @@ Send POST request to `/api/payments/webhook` with:
 - CORS configuration
 - Request body size limits
 
-## Notes for Students
+## Implementation Notes
 
-- **No Refresh Tokens**: JWT tokens expire in 1 hour. For production, implement refresh tokens.
+- **JWT Tokens**: Tokens expire in 1 hour. For production, implement refresh tokens.
 - **Password Reset**: Returns token in API response for Postman testing. In production, send via email.
 - **Mock Payment**: Use `/api/payments/mock` if Stripe is not configured.
 - **Webhook Testing**: Use `{ token: 'test_webhook_token' }` for Postman testing.
@@ -291,8 +291,4 @@ Send POST request to `/api/payments/webhook` with:
 ## License
 
 ISC
-
-## Contributing
-
-This is a student project. Feel free to fork and modify for learning purposes.
 

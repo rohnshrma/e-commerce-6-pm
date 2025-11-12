@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-backend",
   "version": "1.0.0",
-  "description": "Student-friendly MERN backend for e-commerce project",
+  "description": "MERN backend for e-commerce project",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

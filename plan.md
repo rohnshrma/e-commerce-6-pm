@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This is a student-friendly MERN backend for an e-commerce platform. It provides a simple, well-organized Node.js/Express/MongoDB backend with JWT authentication, role-based access control, and basic payment integration (Stripe or mock).
+A MERN backend for an e-commerce platform. Provides a Node.js/Express/MongoDB backend with JWT authentication, role-based access control, and payment integration (Stripe or mock).
 
 ## User Roles & Capabilities
 
@@ -177,7 +177,7 @@ STRIPE_WEBHOOK_SECRET=whsec_... (optional)
 
 - Passwords are hashed with bcrypt (10 rounds by default)
 - JWT tokens expire in 1 hour (configurable)
-- No refresh tokens (simplified for students)
+- No refresh tokens implemented
 - Password reset returns token in response (for Postman testing)
 - Webhook can be simulated with `{ token: 'test_webhook_token', orderId: '...', status: 'paid' }`
 - Mock payment endpoint available if Stripe is not configured
