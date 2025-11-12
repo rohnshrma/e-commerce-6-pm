@@ -324,12 +324,11 @@ E-Commerce Backend API
 
 ## Summary
 
-The Postman collection is your **ready-to-use API testing toolkit**. It:
-- Saves you from manually creating requests
-- Provides examples for all endpoints
-- Automatically handles authentication
-- Organizes requests logically
-- Makes testing fast and easy
+The Postman collection provides:
+- Pre-configured requests for all endpoints
+- Example request bodies
+- Automatic token handling
+- Organized request structure
 
 Import the collection, login, and start testing.
 
