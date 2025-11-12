@@ -68,8 +68,15 @@ e-commerce/
 ├── .gitignore
 ├── package.json
 ├── plan.md                       # Detailed project plan
+├── DEVELOPMENT_ORDER.md          # File creation order guide
 └── README.md                     # This file
 ```
+
+## 📚 Documentation
+
+- **README.md** - This file (setup and usage guide)
+- **plan.md** - Detailed API documentation with all routes
+- **DEVELOPMENT_ORDER.md** - Step-by-step guide showing file creation order and reasoning (great for learning!)
 
 ## Setup Instructions
 
@@ -168,10 +175,6 @@ e-commerce/
 ### Payments
 - `POST /api/payments/webhook` - Payment webhook (Stripe or mock)
 - `POST /api/payments/mock` - Mock payment (for testing)
-
-### Misc
-- `GET /health` - Health check
-- `GET /api/config` - Get public config
 
 ## Postman Testing
 
