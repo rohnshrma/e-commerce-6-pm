@@ -77,6 +77,7 @@ e-commerce/
 - **README.md** - This file (setup and usage guide)
 - **plan.md** - Detailed API documentation with all routes
 - **DEVELOPMENT_ORDER.md** - Step-by-step guide showing file creation order and reasoning (great for learning!)
+- **POSTMAN_GUIDE.md** - Complete guide on using the Postman collection for API testing
 
 ## Setup Instructions
 
