@@ -1,5 +1,10 @@
 # File Creation Order & Reasoning
 
+> 📚 **Related Documentation:**
+> - [README.md](./README.md) - Setup and usage guide
+> - [plan.md](./plan.md) - API documentation and routes
+> - [POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md) - Postman testing guide
+
 This document explains the logical order in which to create files when building this e-commerce backend from scratch, and why each step matters.
 
 ## Overview
@@ -229,10 +234,11 @@ We build from the **bottom up** - starting with configuration and data models, t
 - Helpful for testing
 
 ### 30. Documentation Files
-- `README.md` - Project overview and setup
-- `plan.md` - API documentation
-- `postman_collection.json` - API testing collection
-- `DEVELOPMENT_ORDER.md` - This file!
+- `README.md` - Project overview and setup instructions
+- `plan.md` - Detailed API documentation with all routes
+- `postman_collection.json` - Pre-configured Postman API collection
+- `POSTMAN_GUIDE.md` - Complete guide on using Postman collection
+- `DEVELOPMENT_ORDER.md` - This file (file creation order guide)
 
 ---
 

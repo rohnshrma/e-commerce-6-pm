@@ -19,18 +19,6 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Health check
-app.get('/health', (req, res) => {
-  res.json({ status: 'OK', timestamp: new Date().toISOString() });
-});
-
-// Config endpoint (for Stripe publishable key)
-app.get('/api/config', (req, res) => {
-  res.json({
-    stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY || null,
-  });
-});
-
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);

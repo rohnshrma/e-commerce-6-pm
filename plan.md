@@ -1,5 +1,10 @@
 # E-Commerce Backend - Project Plan
 
+> 📚 **Related Documentation:**
+> - [README.md](./README.md) - Setup and usage guide
+> - [POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md) - Complete Postman testing guide
+> - [DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md) - File creation order guide
+
 ## Project Overview
 
 This is a student-friendly MERN backend for an e-commerce platform. It provides a simple, well-organized Node.js/Express/MongoDB backend with JWT authentication, role-based access control, and basic payment integration (Stripe or mock).
@@ -71,12 +76,6 @@ This is a student-friendly MERN backend for an e-commerce platform. It provides 
 |--------|------|-------------|--------|
 | POST | `/api/payments/webhook` | Webhook endpoint (Stripe or mock) | Public |
 | POST | `/api/payments/mock` | Mock payment for testing without Stripe | Buyer |
-
-### Misc
-| Method | Path | Description | Access |
-|--------|------|-------------|--------|
-| GET | `/health` | Health check | Public |
-| GET | `/api/config` | Get public config (e.g., Stripe publishable key) | Public |
 
 ## Controllers
 
@@ -162,15 +161,17 @@ STRIPE_WEBHOOK_SECRET=whsec_... (optional)
 
 ## Postman Testing
 
-1. Import the provided Postman collection
+> 📖 **For detailed Postman setup and usage, see [POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md)**
+
+**Quick Steps:**
+1. Import the `postman_collection.json` file into Postman
 2. Register a buyer: POST `/api/auth/register`
-3. Login: POST `/api/auth/login` → copy JWT token
-4. Set token in Postman: Authorization → Bearer Token
-5. Browse products: GET `/api/products`
-6. Add to cart: POST `/api/cart`
-7. Create order: POST `/api/orders`
-8. Process payment: POST `/api/payments/mock`
-9. View orders: GET `/api/orders`
+3. Login: POST `/api/auth/login` → token auto-saves
+4. Browse products: GET `/api/products`
+5. Add to cart: POST `/api/cart`
+6. Create order: POST `/api/orders`
+7. Process payment: POST `/api/payments/mock`
+8. View orders: GET `/api/orders`
 
 ## Notes
 

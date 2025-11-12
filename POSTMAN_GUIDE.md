@@ -1,5 +1,10 @@
 # Postman Collection Guide
 
+> 📚 **Related Documentation:**
+> - [README.md](./README.md) - Project setup and overview
+> - [plan.md](./plan.md) - Complete API documentation
+> - [DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md) - File creation guide
+
 ## What is Postman?
 
 **Postman** is a popular API testing tool that allows you to:
@@ -339,6 +344,16 @@ The Postman collection is your **ready-to-use API testing toolkit**. It:
 - Ensure environment variables are set
 - Check that token is saved after login
 - Review error messages in Postman responses
+- See [README.md](./README.md) for troubleshooting
+- Check [plan.md](./plan.md) for API endpoint details
+
+---
+
+## Additional Resources
+
+- **API Documentation**: See [plan.md](./plan.md) for complete route details
+- **Setup Guide**: See [README.md](./README.md) for installation and configuration
+- **Development Guide**: See [DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md) to understand file structure
 
 Happy Testing! 🎉
 

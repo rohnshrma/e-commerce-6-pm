@@ -2,6 +2,13 @@
 
 A student-friendly Node.js/Express/MongoDB backend for an e-commerce platform with JWT authentication, role-based access control, and payment integration.
 
+## 📖 Documentation Index
+
+- **[README.md](./README.md)** - You are here! Setup guide and project overview
+- **[plan.md](./plan.md)** - Complete API documentation with all routes and endpoints
+- **[POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md)** - Step-by-step guide for testing with Postman
+- **[DEVELOPMENT_ORDER.md](./DEVELOPMENT_ORDER.md)** - File creation order guide for learning the architecture
+
 ## Features
 
 - 🔐 JWT Authentication with bcrypt password hashing
@@ -67,17 +74,22 @@ e-commerce/
 ├── .env.example                  # Environment variables template
 ├── .gitignore
 ├── package.json
+├── postman_collection.json       # Postman API collection
 ├── plan.md                       # Detailed project plan
 ├── DEVELOPMENT_ORDER.md          # File creation order guide
+├── POSTMAN_GUIDE.md             # Postman usage guide
 └── README.md                     # This file
 ```
 
-## 📚 Documentation
+## 📚 Documentation Files
 
-- **README.md** - This file (setup and usage guide)
-- **plan.md** - Detailed API documentation with all routes
-- **DEVELOPMENT_ORDER.md** - Step-by-step guide showing file creation order and reasoning (great for learning!)
-- **POSTMAN_GUIDE.md** - Complete guide on using the Postman collection for API testing
+All documentation is included in this repository:
+
+- **README.md** (this file) - Setup instructions, API overview, and troubleshooting
+- **plan.md** - Detailed API documentation with all routes, models, and endpoints
+- **POSTMAN_GUIDE.md** - Complete step-by-step guide for using the Postman collection
+- **DEVELOPMENT_ORDER.md** - File creation order guide explaining the architecture and dependencies
+- **postman_collection.json** - Pre-configured Postman collection ready to import
 
 ## Setup Instructions
 
@@ -179,12 +191,15 @@ e-commerce/
 
 ## Postman Testing
 
-### Import Collection
+> 📖 **For detailed Postman instructions, see [POSTMAN_GUIDE.md](./POSTMAN_GUIDE.md)**
+
+### Quick Start
 
 1. Import the `postman_collection.json` file into Postman
 2. Set up environment variables in Postman:
    - `base_url`: `http://localhost:5000`
    - `token`: (will be set automatically after login)
+3. Follow the complete guide in `POSTMAN_GUIDE.md` for step-by-step instructions
 
 ### Testing Flow
 

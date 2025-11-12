@@ -445,33 +445,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "Misc",
-      "item": [
-        {
-          "name": "Health Check",
-          "request": {
-            "method": "GET",
-            "url": {
-              "raw": "{{base_url}}/health",
-              "host": ["{{base_url}}"],
-              "path": ["health"]
-            }
-          }
-        },
-        {
-          "name": "Get Config",
-          "request": {
-            "method": "GET",
-            "url": {
-              "raw": "{{base_url}}/api/config",
-              "host": ["{{base_url}}"],
-              "path": ["api", "config"]
-            }
-          }
-        }
-      ]
     }
   ]
 }
